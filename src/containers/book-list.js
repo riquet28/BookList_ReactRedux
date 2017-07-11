@@ -39,7 +39,7 @@ function mapStateToProps(state) {
 function mapDispatchToProps(dispatch) {
   // Quand selectBook est apellé, le resultat devra passer
   // par tous les reducers
-  return bindActionCreators({ selectBook: selectBook }, dispatch)
+  return bindActionCreators({ selectBook: selectBook }, dispatch);
 }
 
 // Promouvoir Booklist d'un composant à un conteneur - il doit connaître
